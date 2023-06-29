@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+		.navbar{
+			background:rgb(87, 55, 55);
+			right: 0px;
+			border-radius: 20px;
+			position: fixed;
+	        top: 0;
+	        width: 100%;
+	        border-radius: 20px;
+		}
+		.navbar ul{
+			overflow: auto;
+		}
+		.navbar ul li{
+			float: left;
+			list-style: none;
+			margin: 13px 20px;
+		}
+		.navbar ul li a{
+			padding: 10px 10px;
+			text-decoration: none;
+			color: white;
+
+		}
+		.search{
+			float: right;
+			color: white;
+			padding: 10px 65px;
+			width: 100 	px;
+		}
+		.navbar input{
+			border-radius: 15px;
+			padding: 3px 10px;
+			width: 140px;
+		}
+		.navbar ul li a:hover{
+			color: red;
+			font-size: 18px;
+		}
+		footer{
+			background-color: black;
+	        color: white;
+	        text-align: center;
+	        padding: 10px 0;
+	        position: fixed;
+	        background-color: black;
+	        bottom: 0;
+	        width: 100%;
+	        border-radius: 20px;
+		}
+		#p{
+			margin-top:50px ;
+			text-align: justify;
+			font-size: 16px;
+		}
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background: #ddd;
+
+}
+.container{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.image-section img:hover{
+	transform:scale(1.1,1.1) ;
+	transition-duration: .7s;
+
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 15px;
+	color: #5d5d5d;
+	font-size: 21px;
+}
+.title h1:hover{
+	text-shadow: 2px 2px 2px orange;
+}
+.content-section .content p{
+	margin-top: 15px;
+	font-size: 18px;
+	text-align: justify;
+} 
+.content-section .content .botton{
+	margin-top: 30px;
+
+}
+.content-section .content .botton a{
+	background-color:#3d3d3d ;
+	padding: 12px 40px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	border: 2px black solid;
+	border-radius: 10px 24px;
+	box-shadow: -2px 3px 2px green;
+}
+
+.content-section .content .botton a:hover{
+	background-color: #a52a2a;
+	color: white;
+	font-size: 26px;
+}
+.content-section .social{
+	color: #a52a2a;
+	font-size: 30px;
+	padding: 0px 10px;
+	margin-top: 30px;
+}
+.content-section i:hover{
+	color: red;
+	font-size: 32px;
+}
+.contact{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px black solid;
+}
+.in:focus{
+	outline-style:none ;
+}
